@@ -1,0 +1,5 @@
+main: be.afhistos.linkdiscord.Main
+name: DiscordLink
+version: 1.0
+author: afhistos
+description: this plugin allow you to link your discord server with your minecraft server

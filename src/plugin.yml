@@ -1,0 +1,10 @@
+main: be.afhistos.linkdiscord.Main
+name: DiscordLink
+author: afhistos
+version: 1.4
+description: this plugin allow you to connect your discord serer with your minecraft server
+commands:
+  move:
+    description: move a discord user in another channel
+    usage: /move <USER ID> <CHANNEL ID>
+    permission: discord.move
