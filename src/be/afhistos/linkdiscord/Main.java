@@ -35,7 +35,7 @@ public class Main extends JavaPlugin implements CommandExecutor{
     @Override
     public void onLoad() {
         try {
-            jda = new JDABuilder(AccountType.BOT).setToken("NDU1Nzg2MzYzMjQ2MzQ2MjYw.DgBDtg.A7Eabp3esdZB43yVjN59wKZSN38").addEventListener(new DiscordListener( this)).buildAsync();
+            jda = new JDABuilder(AccountType.BOT).setToken("(TOKEN").addEventListener(new DiscordListener( this)).buildAsync();
         } catch (LoginException e) {
             e.printStackTrace();
         }
